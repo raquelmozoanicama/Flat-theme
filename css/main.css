@@ -13,3 +13,280 @@
 .clearfix:after {
   clear: both;
 }
+/*htm, body*/
+
+html,body{
+	width: 100%;
+	height: 100%;
+}
+
+p{
+	color: #34495E;
+}
+
+/*Utilitties*/
+
+.bg-g{
+	background-color: #2ECC71;
+}
+
+.bg-p{
+	background-color: #F5F5F5;
+}
+
+.text-white{
+	color: white;
+}
+
+.pd-4{
+	padding: 4%;
+}
+.mg-4{
+	margin: 4%;
+}
+
+/*Home*/
+
+/*nav*/
+.navbar{
+	margin-bottom: 0 !important;
+	border: none !important;
+	border-radius: 0 !important;
+}
+
+.nav-bar{
+	background-color: #34495E;
+	padding: 1%;
+}
+
+.nav-bar a{
+	color: #ADB4BB !important; 
+	text-decoration: none;
+}
+
+.nav-bar img{
+	margin: 5%;
+}
+
+.Home-bg{
+	background-color: #2C3E50;
+	border-radius: 5px;
+}
+
+ul li:hover{
+	background-color: #2C3E50;
+	border-radius: 5px;
+}
+
+a:hover{
+	color: white !important;
+}
+
+/*header*/
+
+header{
+	width: 100%;
+	padding: 20% 6%;
+	background:url("../images/slider/bg1.jpg")center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+header span {
+	font-weight: 200;
+	font-size: 2.7em;
+	color: white;
+}
+
+header p{
+	color: white;
+	font-size: 1em;
+}
+
+/*section header icons*/
+
+.section-header{
+	padding:4%;
+    color: white;
+}
+
+.icon-redes{
+	font-size: 35px;
+	height: 70px;
+	width: 70px;
+	padding: 20px;
+	background-color:rgba(0, 0, 0, 0.4);
+	display:block;
+	border-radius: 50%;
+}
+
+.icon-redes:hover{
+	cursor: pointer;
+	background-color: #092917;
+	border-radius: 20%;
+	-webkit-transition: 500ms;
+	transition: 500ms;
+}
+
+/*Our Latest Project*/
+.Last-project{
+	padding: 6%;
+}
+
+.Last-project a{
+  background-color: #D9534F !important;
+  border-color: #D9534F !important;
+}
+
+.caption p{
+	margin-bottom: 0 !important;
+	font-size: 1.28em;
+}
+
+.thumbnail-hover{
+	-webkit-transform: scale(1,1);
+	-webkit-transition-timing-function: ease-out;
+	-webkit-transition-duration: 250ms;
+	-moz-transform: scale(1,1);
+	-moz-transition-timing-function: ease-out;
+	-moz-transition-duration: 250ms;
+}
+
+.thumbnail-hover:hover{
+	cursor: pointer;
+	-webkit-transform: scale(1.12,1.12);
+	-webkit-transition-timing-function: ease-out;
+	-webkit-transition-duration: 100ms;
+	-moz-transform: scale(1.12,1.12);
+	-moz-transition-timing-function: ease-out;
+	-moz-transition-duration: 100ms;
+}
+
+/*Our Clients*/
+ .Our-Clients{
+ 	background-color: #E74C3C;
+ 	padding: 4% 0%;
+ }
+
+ .Our-Clients span{
+ 	font-size: 0.7em;
+ 	font-size: sans-serif;
+ }
+
+ /*/
+
+
+ /*ABOUT .HTML*/
+
+ .section-about a{
+ 	color: white;
+ 	text-decoration: none;
+ 	font-size: 1.2em;
+
+ }
+.section-about p{
+	color: white !important;
+}
+
+ /*PROGRESS*/
+ .progress{
+ 	height: 40px;
+ 	background-color: white;
+ }
+
+ .progress-bar{
+ 	padding: 2%;
+ }
+ 
+ /*ICONS ABOUT*/
+
+ .icon-about{
+ 	color: white;
+    font-size: 20px;
+    height: 50px;
+    width: 50px;
+    padding: 16px;
+    display: inline-block;
+    border-radius: 50%;
+ }
+
+ .icon-about:hover{
+ 	cursor: pointer;
+	background-color: #092917;
+	border-radius: 20%;
+	-webkit-transition: 500ms;
+	transition: 500ms;
+ }
+
+ .i-facebook{
+ 	background-color: #4F69AF;
+ }
+ .i-google{
+ 	background-color: #E62835;
+ }
+ .i-twitter{
+ 	background-color: #70D9EB;
+ }
+ .i-in{
+ 	background-color: #1298CE;
+ }
+
+
+ .img-circle-border{
+ 	border:4px solid white;
+ }
+
+ .img-hover{
+ 	-webkit-transform: scale(1,1);
+	-webkit-transition-timing-function: ease-out;
+	-webkit-transition-duration: 250ms;
+	-moz-transform: scale(1,1);
+	-moz-transition-timing-function: ease-out;
+	-moz-transition-duration: 250ms;
+}
+
+.img-hover:hover{
+	cursor: pointer;
+	-webkit-transform: scale(1.12,1.12);
+	-webkit-transition-timing-function: ease-out;
+	-webkit-transition-duration: 100ms;
+	-moz-transform: scale(1.12,1.12);
+	-moz-transition-timing-function: ease-out;
+	-moz-transition-duration: 100ms;
+}
+
+ /*/
+
+ /*SERVICES HTML*/
+
+ /*SECTION WHAT WE DO */
+ .icon-services{
+ 	color: white;
+ 	font-size: 35px;
+	height: 70px;
+	width: 70px;
+	padding: 15px;
+	background-color:rgba(0, 0, 0, 0.4);
+	display:block;
+	border-radius: 50%;
+ }
+ /*/
+
+ /*PORTFOLIO*/
+
+/*SECTION PORTOFLIO*/
+
+/*/
+
+/*CONTACT US*/
+
+/*FORMULARIO*/
+input{
+	margin-bottom: 2%;
+	margin-top: 2%;
+}
+
+textarea{
+	margin-top: 11%;
+}
+
