@@ -24,6 +24,7 @@ p{
 	color: #34495E;
 }
 
+
 /*Utilitties*/
 
 .bg-g{
@@ -82,25 +83,23 @@ a:hover{
 	color: white !important;
 }
 
-/*header*/
-
-header{
-	width: 100%;
-	padding: 20% 6%;
-	background:url("../images/slider/bg1.jpg")center;
-	background-size: cover;
-	background-repeat: no-repeat;
+/*Carousel*/
+.carousel-caption {
+    text-align: left !important;
+    left: 10%;
+    bottom: 37%;
 }
 
-header span {
+.carousel-caption span {
 	font-weight: 200;
-	font-size: 2.7em;
+	font-size: 2.5em;
 	color: white;
 }
 
-header p{
+.carousel-caption p{
 	color: white;
 	font-size: 1em;
+
 }
 
 /*section header icons*/
