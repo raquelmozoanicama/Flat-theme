@@ -20,9 +20,6 @@ html,body{
 	height: 100%;
 }
 
-p{
-	color: #34495E;
-}
 
 
 /*Utilitties*/
@@ -74,14 +71,12 @@ p{
 	border-radius: 5px;
 }
 
-ul li:hover{
+.navbar ul li:hover{
 	background-color: #2C3E50;
 	border-radius: 5px;
 }
 
-a:hover{
-	color: white !important;
-}
+
 
 /*Carousel*/
 .carousel-caption {
@@ -315,12 +310,8 @@ textarea{
 }
 
 ul li:hover{
-	background-color: #2C3E50;
+	
 	border-radius: 5px;
-}
-
-a:hover{
-	color: white !important;
 }
 
 /*header*/
@@ -356,10 +347,50 @@ header p{
 .clearfix:after {
   clear: both;
 }
+/*footer*/
+#footer ul > li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+#footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.newmember a:not(.btn):hover {
+    color: #d9534f;
+}
+
+
+.newmember a:not(.btn) {
+    color: #bdc3c7;
+}
+
+ul.arrow, ul.arrow-double, ul.tick, ul.cross, ul.star, ul.rss {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+#bottom h4 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.row > div {
+    margin-bottom: 10px;
+}
+
 #bottom {
     color: #bdc3c7;
 }
-.short {
+.newmember {
     background-color: #34495e;
 }
 #footer{
@@ -367,7 +398,7 @@ header p{
     padding-bottom: 30px;
     color: #bdc3c7;
 }
-.midnight-blue {
+.goldmember {
     background-color: #2c3e50;
 }
 .greenish{
@@ -376,6 +407,29 @@ header p{
 }
 .row > div {
     margin-bottom: 10px;
+}
+/*portfolio*/
+.portfolio-items, .portfolio-filter {
+    list-style: none;
+    padding: 0;
+    margin: 0 -20px 20px 0;
+}
+.portfolio-items.col-3 > li {
+    width: 33%;
+}
+.portfolio-items.col-3 > li {
+    width: 33%;
+}
+.portfolio-item .item-inner {
+    background: #fff;
+    border: 1px solid #eee;
+    padding: 10px 10px 0;
+    margin: 0 20px 20px 0;
+    position: relative;
+}
+.portfolio-items > li {
+    float: left;
+    padding: 0;
 }
 .portfolio-items{
 	list-style: none;
@@ -456,4 +510,10 @@ ul.tag-cloud li {
 body > section {
     padding: 50px 0;
 }
+a:hover, a:focus {
+    color: #d9534f;
+    text-decoration: none;
+    outline: none;
+}
+
 
